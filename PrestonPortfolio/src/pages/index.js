@@ -64,7 +64,7 @@ class Index extends React.Component {
 
           <section id="first" className="main special">
             <header className="major">
-              <h2>Magna veroeros</h2>
+              <h2>My Projects</h2>
             </header>
             <ul className="features">
               <li>
@@ -92,7 +92,7 @@ class Index extends React.Component {
 
           <section id="second" className="main special">
             <header className="major">
-              <h2>Ipsum consequat</h2>
+              <h2>Experience</h2>
               <p>Donec imperdiet consequat consequat. Suspendisse feugiat congue<br />
               posuere. Nulla massa urna, fermentum eget quam aliquet.</p>
             </header>
@@ -128,7 +128,7 @@ class Index extends React.Component {
 
           <section id="cta" className="main special">
             <header className="major">
-              <h2>Congue imperdiet</h2>
+              <h2>Contact Me</h2>
               <p>Donec imperdiet consequat consequat. Suspendisse feugiat congue<br />
               posuere. Nulla massa urna, fermentum eget quam aliquet.</p>
             </header>
