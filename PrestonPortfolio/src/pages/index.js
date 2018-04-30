@@ -45,11 +45,15 @@ class Index extends React.Component {
             <div className="spotlight">
               <div className="content">
                 <header className="major">
-                  <h2>Ipsum sed adipiscing</h2>
+                  <h2>About Me</h2>
                 </header>
-                <p>Sed lorem ipsum dolor sit amet nullam consequat feugiat consequat magna
-                adipiscing magna etiam amet veroeros. Lorem ipsum dolor tempus sit cursus.
-                Tempus nisl et nullam lorem ipsum dolor sit amet aliquam.</p>
+                <p>As a front-end engineer, I enjoy bridging the gap between engineering 
+                and design — combining my technical knowledge with my keen eye for design 
+                to create a beautiful product. My goal is to always build applications that 
+                are scalable and efficient under the hood while providing engaging user experiences.</p>
+
+                <p>When I'm not in front of a computer screen, I'm probably biking around town taking photography,
+                trying out new restaurants and coffee shops, or crossing off another national park off my bucket list.</p>
                 <ul className="actions">
                   <li><Link to="/generic" className="button">Learn More</Link></li>
                 </ul>
