@@ -52,11 +52,11 @@ class Index extends React.Component {
                 to create a beautiful product. My goal is to always build applications that 
                 are scalable and efficient under the hood while providing engaging user experiences.</p>
 
+                <p>Huge tech lover and always looking for new exciting thing to learn ! Born and raised in the moutain, i try to find the time to go there to find the ressource i need to give the best of me for my project ! After an IT Degree and few years in the film industry in found my self again in the Tech area, understanding how our connected world work and explaining it to my peer is the most trilling challenge i faced. And now after my degree in one of the most famous french business school (i.e HEC Paris) i found new challenge in the entrepreneur way.</p>
+
                 <p>When I'm not in front of a computer screen, I'm probably biking around town taking photography,
                 trying out new restaurants and coffee shops, or crossing off another national park off my bucket list.</p>
-                <ul className="actions">
-                  <li><Link to="/generic" className="button">Learn More</Link></li>
-                </ul>
+                
               </div>
               <span className="image"><img src={pic01} alt="" /></span>
             </div>
@@ -64,13 +64,15 @@ class Index extends React.Component {
 
           <section id="first" className="main special">
             <header className="major">
-              <h2>My Projects</h2>
+              <h2>Projects</h2>
             </header>
             <ul className="features">
               <li>
+              <card>
                 <span className="icon major style1 fa-code"></span>
                 <h3>Ipsum consequat</h3>
                 <p>Sed lorem amet ipsum dolor et amet nullam consequat a feugiat consequat tempus veroeros sed consequat.</p>
+                </card>
               </li>
               <li>
                 <span className="icon major style3 fa-copy"></span>
@@ -82,17 +84,24 @@ class Index extends React.Component {
                 <h3>Dolor nullam</h3>
                 <p>Sed lorem amet ipsum dolor et amet nullam consequat a feugiat consequat tempus veroeros sed consequat.</p>
               </li>
+              <li>
+                <span className="icon major style5 fa-diamond"></span>
+                <h3>Dolor nullam</h3>
+                <p>Sed lorem amet ipsum dolor et amet nullam consequat a feugiat consequat tempus veroeros sed consequat.</p>
+              </li>
+              <li>
+                <span className="icon major style5 fa-diamond"></span>
+                <h3>Dolor nullam</h3>
+                <p>Sed lorem amet ipsum dolor et amet nullam consequat a feugiat consequat tempus veroeros sed consequat.</p>
+              </li>
             </ul>
             <footer className="major">
-              <ul className="actions">
-                <li><Link to="/generic" className="button">Learn More</Link></li>
-              </ul>
             </footer>
           </section>
 
           <section id="second" className="main special">
             <header className="major">
-              <h2>Experience</h2>
+              <h2>Work Experience</h2>
               <p>Donec imperdiet consequat consequat. Suspendisse feugiat congue<br />
               posuere. Nulla massa urna, fermentum eget quam aliquet.</p>
             </header>
@@ -120,23 +129,16 @@ class Index extends React.Component {
             </ul>
             <p className="content">Nam elementum nisl et mi a commodo porttitor. Morbi sit amet nisl eu arcu faucibus hendrerit vel a risus. Nam a orci mi, elementum ac arcu sit amet, fermentum pellentesque et purus. Integer maximus varius lorem, sed convallis diam accumsan sed. Etiam porttitor placerat sapien, sed eleifend a enim pulvinar faucibus semper quis ut arcu. Ut non nisl a mollis est efficitur vestibulum. Integer eget purus nec nulla mattis et accumsan ut magna libero. Morbi auctor iaculis porttitor. Sed ut magna ac risus et hendrerit scelerisque. Praesent eleifend lacus in lectus aliquam porta. Cras eu ornare dui curabitur lacinia.</p>
             <footer className="major">
-              <ul className="actions">
-                <li><Link to="/generic" className="button">Learn More</Link></li>
-              </ul>
             </footer>
           </section>
 
-          <section id="cta" className="main special">
+          <section id="third" className="main special">
             <header className="major">
-              <h2>Contact Me</h2>
+              <h2>Education</h2>
               <p>Donec imperdiet consequat consequat. Suspendisse feugiat congue<br />
               posuere. Nulla massa urna, fermentum eget quam aliquet.</p>
             </header>
             <footer className="major">
-              <ul className="actions">
-                <li><Link to="/generic" className="button special">Get Started</Link></li>
-                <li><Link to="/generic" className="button">Learn More</Link></li>
-              </ul>
             </footer>
           </section>
 
