@@ -4,3 +4,20 @@
     color: rgb(89, 216, 255);
 }
 
+
+
+.image {
+    border: 1px;
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    max-width: 530px;
+    margin: auto auto 1rem;
+}
+
+img {
+        max-width: 250px;
+        display: block;
+    }
+
+

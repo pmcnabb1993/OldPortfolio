@@ -7,6 +7,9 @@ import Waypoint from 'react-waypoint'
 import Header from '../components/Header'
 import Nav from '../components/Nav'
 import pic01 from '../assets/images/pic01.jpg'
+import pic02 from '../assets/images/pic02.jpg'
+import pic03 from '../assets/images/pic03.jpg'
+
 
 class Index extends React.Component {
   constructor(props) {
@@ -68,11 +71,11 @@ class Index extends React.Component {
             </header>
             <ul className="features">
               <li>
-              <card>
-                <span className="icon major style1 fa-code"></span>
+              <div className="project-item">
+              <span className="image"><img src={pic02} alt="" /></span>
+              </div>
                 <h3>Ipsum consequat</h3>
                 <p>Sed lorem amet ipsum dolor et amet nullam consequat a feugiat consequat tempus veroeros sed consequat.</p>
-                </card>
               </li>
               <li>
                 <span className="icon major style3 fa-copy"></span>
@@ -90,9 +93,7 @@ class Index extends React.Component {
                 <p>Sed lorem amet ipsum dolor et amet nullam consequat a feugiat consequat tempus veroeros sed consequat.</p>
               </li>
               <li>
-                <span className="icon major style5 fa-diamond"></span>
-                <h3>Dolor nullam</h3>
-                <p>Sed lorem amet ipsum dolor et amet nullam consequat a feugiat consequat tempus veroeros sed consequat.</p>
+              
               </li>
             </ul>
             <footer className="major">
