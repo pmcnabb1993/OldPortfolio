@@ -3,12 +3,15 @@ import Link from 'gatsby-link'
 import get from 'lodash/get'
 import Helmet from 'react-helmet'
 import Waypoint from 'react-waypoint'
+import Img from "gatsby-image";
+import Project from '../components/Project'
+
 
 import Header from '../components/Header'
 import Nav from '../components/Nav'
 import pic01 from '../assets/images/pic01.jpg'
-import pic02 from '../assets/images/pic02.jpg'
-import pic03 from '../assets/images/pic03.jpg'
+
+import weatherapp from '../assets/images/weatherapp.png'
 
 
 class Index extends React.Component {
@@ -53,7 +56,7 @@ class Index extends React.Component {
                 <p>As a front-end engineer, I enjoy bridging the gap between engineering 
                 and design — combining my technical knowledge with my keen eye for design 
                 to create a beautiful product. My goal is to always build applications that 
-                are scalable and efficient under the hood while providing engaging user experiences.</p>
+                are scalable and efficient under the hood while providing engaging user Projects.</p>
 
                 <p>Huge tech lover and always looking for new exciting thing to learn ! Born and raised in the moutain, i try to find the time to go there to find the ressource i need to give the best of me for my project ! After an IT Degree and few years in the film industry in found my self again in the Tech area, understanding how our connected world work and explaining it to my peer is the most trilling challenge i faced. And now after my degree in one of the most famous french business school (i.e HEC Paris) i found new challenge in the entrepreneur way.</p>
 
@@ -71,17 +74,29 @@ class Index extends React.Component {
             </header>
             <ul className="features">
               <li>
-              <div className="project-item">
-              <span className="image"><img src={pic02} alt="" /></span>
-              </div>
-                <h3>Ipsum consequat</h3>
-                <p>Sed lorem amet ipsum dolor et amet nullam consequat a feugiat consequat tempus veroeros sed consequat.</p>
+              <Project
+                  src={weatherapp}
+                  colour="#FFFFFF"
+                  title="Weather App"
+                  link="https://www.littlenomad.co/"
+                  timeperiod="2017"
+                  subtitle="A platform for socially aware travellers. Runs on
+                    React+Redux with a Ruby on Rails backend."
+                /> 
               </li>
+
               <li>
-                <span className="icon major style3 fa-copy"></span>
-                <h3>Amed sed feugiat</h3>
-                <p>Sed lorem amet ipsum dolor et amet nullam consequat a feugiat consequat tempus veroeros sed consequat.</p>
+              <Project
+                  src={weatherapp}
+                  colour="#FFFFFF"
+                  title="Weather App"
+                  link="https://preston-weather-app.herokuapp.com/"
+                  timeperiod="2017"
+                  subtitle="A platform for socially aware travellers. Runs on
+                    React+Redux with a Ruby on Rails backend."
+                />
               </li>
+
               <li>
                 <span className="icon major style5 fa-diamond"></span>
                 <h3>Dolor nullam</h3>

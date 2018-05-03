@@ -2,6 +2,7 @@ import React from 'react'
 import Link from 'gatsby-link'
 import '../assets/scss/main.scss'
 import '../assets/css/style.css'
+import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 
 import Footer from '../components/Footer'
 
