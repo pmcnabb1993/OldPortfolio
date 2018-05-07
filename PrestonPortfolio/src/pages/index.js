@@ -86,18 +86,21 @@ class Index extends React.Component {
               <Project
                   src={Dolo}
                   colour="#FFFFFF"
-                  title="Weather App"
+                  title="Donation Location"
                   link="http://www.dolo.io/"
                   timeperiod="2017"
-                  subtitle="A platform for socially aware travellers. Runs on
-                    React+Redux with a Ruby on Rails backend."
+                  subtitle="A application that allows indivudual users and non-profit
+                  organizations to post donations or request donations. 
+                  This full-stack site takes in posts/donations from users and then
+                  allows organizations to respond to whats posted if they are in need
+                  of that item."
                 /> 
               </li>
               <li>
               <Project
                   src={LiveAthlete}
                   colour="#FFFFFF"
-                  title="Weather App"
+                  title="Live Athlete"
                   link="https://gitdarren.github.io/LiveAthle…"
                   timeperiod="2017"
                   subtitle="A platform for socially aware travellers. Runs on
@@ -145,8 +148,8 @@ class Index extends React.Component {
                   title="Weather App"
                   link=" https://preston-burger-app.herokuapp.com/"
                   timeperiod="2017"
-                  subtitle="A platform for socially aware travellers. Runs on
-                    React+Redux with a Ruby on Rails backend."
+                  subtitle="BurgerApp is a simple application that lets the user 
+                  log and update new menu items. Which in this case happens to be burgers."
                 />
               </li>
               <li>
