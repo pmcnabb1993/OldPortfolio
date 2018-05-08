@@ -65,7 +65,8 @@ class Index extends React.Component {
                 <p>As a front-end engineer, I enjoy bridging the gap between engineering 
                 and design — combining my technical knowledge with my keen eye for design 
                 to create a beautiful product. My goal is to always build applications that 
-                are scalable and efficient under the hood while providing engaging user Projects.</p>
+                are scalable and efficient under the hood while providing engaging user Projects.
+                Allow me to introduce myself: I am a designer, an educator-in-training, and a wine lover. I like to work with grids, distort letters with the scanner, crack stupid jokes, cry at bad design, take dangerous photos, and dance when no one is watching. I am still figuring out what I am doing with my life. But hey, nice to meet you!</p>
 
                 <p>Huge tech lover and always looking for new exciting thing to learn ! Born and raised in the moutain, i try to find the time to go there to find the ressource i need to give the best of me for my project ! After an IT Degree and few years in the film industry in found my self again in the Tech area, understanding how our connected world work and explaining it to my peer is the most trilling challenge i faced. And now after my degree in one of the most famous french business school (i.e HEC Paris) i found new challenge in the entrepreneur way.</p>
 
@@ -88,7 +89,7 @@ class Index extends React.Component {
                   colour="#FFFFFF"
                   title="Donation Location"
                   link="http://www.dolo.io/"
-                  timeperiod="2017"
+                  timeperiod="HTML5, CSS"
                   subtitle="A application that allows indivudual users and non-profit
                   organizations to post donations or request donations. 
                   This full-stack site takes in posts/donations from users and then
@@ -114,8 +115,8 @@ class Index extends React.Component {
                   title="Weather App"
                   link="https://preston-weather-app.herokuapp.com/"
                   timeperiod="2017"
-                  subtitle="A platform for socially aware travellers. Runs on
-                    React+Redux with a Ruby on Rails backend."
+                  subtitle="Simple weather app using the OpenWeatherMap API 
+                  to get weather and forecast data for a searched location."
                 />
               </li>
 
@@ -123,33 +124,35 @@ class Index extends React.Component {
               <Project
                   src={MetroTracker}
                   colour="#FFFFFF"
-                  title="Weather App"
+                  title="Metro Tracker"
                   link="https://preston-weather-app.herokuapp.com/"
                   timeperiod="2017"
                   subtitle="A platform for socially aware travellers. Runs on
                     React+Redux with a Ruby on Rails backend."
                 />
               </li>
-              <li>
-              <Project
-                  src={LIRI}
-                  colour="#FFFFFF"
-                  title="Weather App"
-                  link="https://preston-weather-app.herokuapp.com/"
-                  timeperiod="2017"
-                  subtitle="A platform for socially aware travellers. Runs on
-                    React+Redux with a Ruby on Rails backend."
-                />
-              </li>
+              
               <li>
               <Project
                   src={BurgerApp}
                   colour="#FFFFFF"
-                  title="Weather App"
+                  title="Burger Menu"
                   link=" https://preston-burger-app.herokuapp.com/"
                   timeperiod="2017"
                   subtitle="BurgerApp is a simple application that lets the user 
                   log and update new menu items. Which in this case happens to be burgers."
+                />
+              </li>
+              <li>
+              <Project
+                  src={giphy}
+                  colour="#FFFFFF"
+                  title="Giph-tastic"
+                  link="https://pmcnabb1993.github.io/giphy_Project/"
+                  timeperiod="2017"
+                  subtitle="GifTastic is a web application that uses the GIPHY API 
+                  to make a dynamic web page that populates with gifs of your choice. 
+                  Create a button for any keyword you want."
                 />
               </li>
               <li>
