@@ -26,6 +26,7 @@ import FriendFinder from '../assets/images/LiveAthlete.png'
 import LiveAthlete from '../assets/images/LiveAthlete.png'
 import StrangerTrivia from '../assets/images/StrangerTrivia.png'
 import skills from './skills.js'
+import Profile from '../assets/images/Profile.png'
 
 
 class Index extends React.Component {
@@ -68,8 +69,7 @@ class Index extends React.Component {
                 <header className="major">
                   <h2>About Me</h2>
                 </header>
-                <p>As a front-end engineer, I enjoy bridging the gap between engineering 
-                and design — combining my technical knowledge with my keen eye for design 
+                <p>As a front-end engineer...  
                </p>
 
                 {/* <p>Huge tech lover and always looking for a new exciting thing to learn! 
@@ -82,7 +82,7 @@ class Index extends React.Component {
                 trying out new restaurants and coffee shops, or crossing off another national park off my bucket list.</p>
                 
               </div>
-              <span className="image"><img src={pic01} alt="" /></span>
+              <span className="image"><img src={Profile} alt="" /></span>
             </div>
           </section>
 
@@ -104,12 +104,9 @@ class Index extends React.Component {
                   colour="#FFFFFF"
                   title="Donation Location"
                   link="http://www.dolo.io/"
-                  timeperiod="HTML5, CSS"
+                  timeperiod="HTML5, CSS, Bulma Framework, Javascript, MongoDB, MySQL "
                   subtitle="A application that allows indivudual users and non-profit
-                  organizations to post donations or request donations. 
-                  This full-stack site takes in posts/donations from users and then
-                  allows organizations to respond to whats posted if they are in need
-                  of that item."
+                  organizations to post donations or request donations. "
                 /> 
               </li>
               <li>
@@ -118,7 +115,7 @@ class Index extends React.Component {
                   colour="#FFFFFF"
                   title="Live Athlete"
                   link="https://gitdarren.github.io/LiveAthle…"
-                  timeperiod="2017"
+                  timeperiod="HTML5, CSS, Materialize Framework, Javascript, Firebase"
                   subtitle="A platform for socially aware travellers. Runs on
                     React+Redux with a Ruby on Rails backend."
                 /> 
@@ -129,7 +126,7 @@ class Index extends React.Component {
                   colour="#FFFFFF"
                   title="Weather App"
                   link="https://preston-weather-app.herokuapp.com/"
-                  timeperiod="2017"
+                  timeperiod="HTML5, CSS, Javascript, OpenWeatherAPI, GoogleMaps API"
                   subtitle="Simple weather app using the OpenWeatherMap API 
                   to get weather and forecast data for a searched location."
                 />

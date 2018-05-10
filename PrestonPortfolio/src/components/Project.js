@@ -18,7 +18,7 @@ class Project extends Component {
         <div className="title bold">
           {this.props.title}
         </div>
-        <div className="time-period">
+        <div className="subtitle">
           {this.props.timeperiod}
         </div>
         <div className="subtitle">
