@@ -5,7 +5,8 @@ import Helmet from 'react-helmet'
 import Waypoint from 'react-waypoint'
 import Img from "gatsby-image";
 import Project from '../components/Project'
-import Bars from '../components/Bars'
+import SkillBar from 'react-skillbars';
+
 
 
 import Header from '../components/Header'
@@ -24,6 +25,8 @@ import Dolo from '../assets/images/Dolo.png'
 import FriendFinder from '../assets/images/LiveAthlete.png'
 import LiveAthlete from '../assets/images/LiveAthlete.png'
 import StrangerTrivia from '../assets/images/StrangerTrivia.png'
+import skills from './skills.js'
+
 
 class Index extends React.Component {
   constructor(props) {
@@ -83,7 +86,7 @@ class Index extends React.Component {
           <section id="first" className="main special">
           <header className="major">
               <h2>Skills</h2>
-              <Bars />
+              <SkillBar skills={skills}/>
             </header>
           </section>
 
