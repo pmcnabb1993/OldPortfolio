@@ -6,9 +6,10 @@ import logo from '../assets/images/logo.svg';
 const Header = (props) => (
     <header id="header" className="alt">
         <h1>Welcome Y'all</h1>
-        <p>I'm <span className="name">Preston McNabb</span>, a front-end focused software developer and coffee enthusiast.<br />
-        Start scrolling to learn more about me.
-        </p>
+        <span className="name">Preston McNabb</span>
+        <p>Front End Software Developer/Coffee Enthusiast</p>
+        <h4>Scroll To Learn More.</h4>
+        
     </header>
 )
 

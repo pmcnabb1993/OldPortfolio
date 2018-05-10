@@ -49,8 +49,9 @@ class Index extends React.Component {
     return (
       <div>
         <Helmet title={get(this, 'props.data.site.siteMetadata.title')} />
-
+        <section id="landing">
         <Header />
+        </section>
 
         <Waypoint
           onEnter={this._handleWaypointEnter}
