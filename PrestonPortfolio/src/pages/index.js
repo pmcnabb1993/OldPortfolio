@@ -70,11 +70,13 @@ class Index extends React.Component {
                 </header>
                 <p>As a front-end engineer, I enjoy bridging the gap between engineering 
                 and design — combining my technical knowledge with my keen eye for design 
-                to create a beautiful product. My goal is to always build applications that 
-                are scalable and efficient under the hood while providing engaging user Projects.
-                Allow me to introduce myself: I am a designer, an educator-in-training, and a wine lover. I like to work with grids, distort letters with the scanner, crack stupid jokes, cry at bad design, take dangerous photos, and dance when no one is watching. I am still figuring out what I am doing with my life. But hey, nice to meet you!</p>
+               </p>
 
-                <p>Huge tech lover and always looking for new exciting thing to learn ! Born and raised in the moutain, i try to find the time to go there to find the ressource i need to give the best of me for my project ! After an IT Degree and few years in the film industry in found my self again in the Tech area, understanding how our connected world work and explaining it to my peer is the most trilling challenge i faced. And now after my degree in one of the most famous french business school (i.e HEC Paris) i found new challenge in the entrepreneur way.</p>
+                {/* <p>Huge tech lover and always looking for a new exciting thing to learn! 
+                Born and raised in Texas, I try to find the time to go there to find the ressource i need to give the best of me for my project
+                 After an IT Degree and few years in the film industry in found my self again in the Tech area, 
+                 understanding how our connected world work and explaining it to my peer is the most trilling challenge i faced. 
+                 And now after my degree in one of the most famous french business school (i.e HEC Paris) i found new challenge in the entrepreneur way.</p> */}
 
                 <p>When I'm not in front of a computer screen, I'm probably biking around town taking photography,
                 trying out new restaurants and coffee shops, or crossing off another national park off my bucket list.</p>
@@ -87,7 +89,7 @@ class Index extends React.Component {
           <section id="first" className="main special">
           <header className="major">
               <h2>Skills</h2>
-              <SkillBar skills={skills}/>
+              <SkillBar skills={skills} animationDelay={100} />
             </header>
           </section>
 
@@ -179,17 +181,7 @@ class Index extends React.Component {
                     React+Redux with a Ruby on Rails backend."
                 />
               </li>
-              <li>
-              <Project
-                  src={TypeSearch}
-                  colour="#FFFFFF"
-                  title="Weather App"
-                  link="https://preston-weather-app.herokuapp.com/"
-                  timeperiod="2017"
-                  subtitle="A platform for socially aware travellers. Runs on
-                    React+Redux with a Ruby on Rails backend."
-                />
-              </li>
+              
               <li>
               <Project
                   src={FriendFinder}
@@ -212,36 +204,21 @@ class Index extends React.Component {
                     React+Redux with a Ruby on Rails backend."
                 />
               </li>
-
-              <li>
-                <span className="icon major style5 fa-diamond"></span>
-                <h3>Dolor nullam</h3>
-                <p>Sed lorem amet ipsum dolor et amet nullam consequat a feugiat consequat tempus veroeros sed consequat.</p>
-              </li>
-              <li>
-                <span className="icon major style5 fa-diamond"></span>
-                <h3>Dolor nullam</h3>
-                <p>Sed lorem amet ipsum dolor et amet nullam consequat a feugiat consequat tempus veroeros sed consequat.</p>
-              </li>
-              <li>
-              
-              </li>
             </ul>
           </section>
 
           <section id="third" className="main special">
           <header className="major">
               <h2>Work Experience</h2>
-              <p>Donec imperdiet consequat consequat. Suspendisse feugiat congue<br />
-              posuere. Nulla massa urna, fermentum eget quam aliquet.</p>
+              <p>Luxe</p>
             </header>
           </section>
 
           <section id="forth" className="main special">
             <header className="major">
               <h2>Education</h2>
-              <p>Donec imperdiet consequat consequat. Suspendisse feugiat congue<br />
-              posuere. Nulla massa urna, fermentum eget quam aliquet.</p>
+              <p>University of Texas - Bachelors</p>
+              <p>University of Texas - UT coding bootcamp</p>
             </header>
 
             <footer className="major">
