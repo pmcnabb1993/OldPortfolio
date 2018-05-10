@@ -21,6 +21,7 @@ const Footer = (props) => (
             </ul>
         
         <p className="copyright">Let's Grab Coffee. <a className="icon fa-coffee"></a></p>
+        <p className="copyright">Built with ❤️ using GatsbyJS</p>
     </footer>
 )
 

@@ -5,11 +5,13 @@ import Helmet from 'react-helmet'
 import Waypoint from 'react-waypoint'
 import Img from "gatsby-image";
 import Project from '../components/Project'
+import Bars from '../components/Bars'
 
 
 import Header from '../components/Header'
 import Nav from '../components/Nav'
 import pic01 from '../assets/images/pic01.jpg'
+
 
 import weatherapp from '../assets/images/weatherapp.png'
 import LIRI from '../assets/images/LIRI.png'
@@ -79,6 +81,13 @@ class Index extends React.Component {
           </section>
 
           <section id="first" className="main special">
+          <header className="major">
+              <h2>Skills</h2>
+              <Bars />
+            </header>
+          </section>
+
+          <section id="second" className="main special">
             <header className="major">
               <h2>Projects</h2>
             </header>
@@ -159,7 +168,7 @@ class Index extends React.Component {
               <Project
                   src={StrangerTrivia}
                   colour="#FFFFFF"
-                  title="Weather App"
+                  title="Stranger Things Trivia"
                   link="https://pmcnabb1993.github.io/Trivia_Game/"
                   timeperiod="2017"
                   subtitle="A platform for socially aware travellers. Runs on
@@ -181,7 +190,7 @@ class Index extends React.Component {
               <Project
                   src={FriendFinder}
                   colour="#FFFFFF"
-                  title="Weather App"
+                  title="Friend Finder"
                   link="https://preston-friend-finder.herokuapp.com/home.html"
                   timeperiod="2017"
                   subtitle="A platform for socially aware travellers. Runs on
@@ -192,7 +201,7 @@ class Index extends React.Component {
               <Project
                   src={MarioApp}
                   colour="#FFFFFF"
-                  title="Weather App"
+                  title="Memory Game"
                   link="https://mario-memory-game.herokuapp.com/"
                   timeperiod="2017"
                   subtitle="A platform for socially aware travellers. Runs on
@@ -214,23 +223,28 @@ class Index extends React.Component {
               
               </li>
             </ul>
-            <p className="content">Nam elementum nisl et mi a commodo porttitor. Morbi sit amet nisl eu arcu faucibus hendrerit vel a risus. Nam a orci mi, elementum ac arcu sit amet, fermentum pellentesque et purus. Integer maximus varius lorem, sed convallis diam accumsan sed. Etiam porttitor placerat sapien, sed eleifend a enim pulvinar faucibus semper quis ut arcu. Ut non nisl a mollis est efficitur vestibulum. Integer eget purus nec nulla mattis et accumsan ut magna libero. Morbi auctor iaculis porttitor. Sed ut magna ac risus et hendrerit scelerisque. Praesent eleifend lacus in lectus aliquam porta. Cras eu ornare dui curabitur lacinia.</p>
-            <footer className="major">
-            </footer>
           </section>
 
           <section id="third" className="main special">
+          <header className="major">
+              <h2>Work Experience</h2>
+              <p>Donec imperdiet consequat consequat. Suspendisse feugiat congue<br />
+              posuere. Nulla massa urna, fermentum eget quam aliquet.</p>
+            </header>
+          </section>
+
+          <section id="forth" className="main special">
             <header className="major">
               <h2>Education</h2>
               <p>Donec imperdiet consequat consequat. Suspendisse feugiat congue<br />
               posuere. Nulla massa urna, fermentum eget quam aliquet.</p>
             </header>
+
             <footer className="major">
             </footer>
           </section>
 
         </div>
-
       </div>
     )
   }
