@@ -5,14 +5,10 @@ import Helmet from 'react-helmet'
 import Waypoint from 'react-waypoint'
 import Img from "gatsby-image";
 import Project from '../components/Project'
-import SkillBar from 'react-skillbars';
-
-
 
 import Header from '../components/Header'
 import Nav from '../components/Nav'
 import pic01 from '../assets/images/pic01.jpg'
-
 
 import weatherapp from '../assets/images/weatherapp.png'
 import LIRI from '../assets/images/LIRI.png'
@@ -89,7 +85,7 @@ class Index extends React.Component {
           <section id="first" className="main special">
           <header className="major">
               <h2>Skills</h2>
-              <SkillBar skills={skills} animationDelay={100} />
+              
             </header>
           </section>
 
@@ -104,7 +100,7 @@ class Index extends React.Component {
                   colour="#FFFFFF"
                   title="Donation Location"
                   link="http://www.dolo.io/"
-                  timeperiod="HTML5, CSS, Bulma Framework, Javascript, MongoDB, MySQL "
+                  timeperiod="HTML5 - CSS - Bulma Framework - Javascript - MongoDB - MySQL "
                   subtitle="A application that allows indivudual users and non-profit
                   organizations to post donations or request donations. "
                 /> 
@@ -115,7 +111,7 @@ class Index extends React.Component {
                   colour="#FFFFFF"
                   title="Live Athlete"
                   link="https://gitdarren.github.io/LiveAthle…"
-                  timeperiod="HTML5, CSS, Materialize Framework, Javascript, Firebase"
+                  timeperiod="HTML5 - CSS - Materialize - Javascript - Firebase - Google Authentication"
                   subtitle="A platform for socially aware travellers. Runs on
                     React+Redux with a Ruby on Rails backend."
                 /> 
@@ -126,7 +122,7 @@ class Index extends React.Component {
                   colour="#FFFFFF"
                   title="Weather App"
                   link="https://preston-weather-app.herokuapp.com/"
-                  timeperiod="HTML5, CSS, Javascript, OpenWeatherAPI, GoogleMaps API"
+                  timeperiod="HTML5 - CSS - Javascript - OpenWeatherAPI - GoogleMaps API"
                   subtitle="Simple weather app using the OpenWeatherMap API 
                   to get weather and forecast data for a searched location."
                 />

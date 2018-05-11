@@ -15,13 +15,13 @@ class Project extends Component {
             }}>
           </div>
         </a>
-        <div className="title bold">
+        <div className="title">
           {this.props.title}
         </div>
-        <div className="subtitle">
+        <div className="tools">
           {this.props.timeperiod}
         </div>
-        <div className="subtitle">
+        <div className="subtitle2">
           {this.props.subtitle}
         </div>
       </div>
