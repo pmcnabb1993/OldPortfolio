@@ -3,7 +3,8 @@
 /// html5up.net | @ajlkn
 /// Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 ///
-
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700');
 /* Type */
 
 	body {
@@ -81,11 +82,13 @@
 	}
 
 	h1 {
+		font-family: 'Playfair Display', serif;
 		font-size: 2.5em;
 		line-height: 1.2;
 	}
 
 	h2 {
+		
 		font-size: 1.5em;
 	}
 
