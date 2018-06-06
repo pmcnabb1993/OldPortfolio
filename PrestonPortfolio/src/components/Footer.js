@@ -5,9 +5,9 @@ import logo from '../assets/images/logo.svg';
 
 const Footer = (props) => (
     <footer id="footer">
-            <h2>Contact</h2>
+            <h2><span className="pink">Contact</span></h2>
                 <h4> Preston Thomas McNabb </h4>
-                <h4>Austin Texas  &bull;  Denver Colorado </h4>
+                <h4>Austin  &bull;  Texas </h4>
                 <h4>(361) 944-0515</h4>
                 <p><a href="mailto:prestonmcnabb22@gmail.com">prestonmcnabb22@gmail.com</a></p>
 

@@ -1,9 +1,5 @@
 .name {
-    font-size: 2.75rem;
-    font-family: 'Source Sans Pro', sans-serif;
-    font-weight: 400;
-    color: rgba(255,255,255,0.65);
-    
+    font-size: 1.5em;
 }
 
 h1 {
@@ -11,6 +7,16 @@ h1 {
  font-weight: 600;
 }
 
+.pink {
+    color: rgb(240, 198, 221);
+    font-size: 1.2em;
+}
+
+.scrollmore {
+    transform: translateY(100px);
+    color: rgb(240, 198, 221);
+    font-weight: 500;
+}
 
 #landing {
     height:100vh;
