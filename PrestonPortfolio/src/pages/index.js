@@ -9,6 +9,7 @@ import Project from '../components/Project'
 import Header from '../components/Header'
 import Nav from '../components/Nav'
 import pic01 from '../assets/images/pic01.jpg'
+import GithubCorner from 'react-github-corner';
 
 import weatherapp from '../assets/images/weatherapp.png'
 import LIRI from '../assets/images/LIRI.png'
@@ -104,6 +105,13 @@ class Index extends React.Component {
                   subtitle="A application that allows indivudual users and non-profit
                   organizations to post donations or request donations. "
                 /> 
+                <GithubCorner
+                  href={"https://github.com/pmcnabb1993/PrestonPortfolio"}
+                  bannerColor="#70B7FD"
+                  octoColor="rgb(240, 198, 221)"
+                  size={80}
+                  direction="right" 
+                  />
               </li>
               <li>
               <Project
