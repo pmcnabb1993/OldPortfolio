@@ -7,7 +7,7 @@ const Header = (props) => (
     <header id="header" className="alt">
         <h1>Welcome Y'all</h1>
         <h2><span className="name">Preston Thomas McNabb</span><br />
-        Austin Based Front-End Software Developer</h2>
+        Front-End Software Developer / Austin, Texas</h2>
         <br />
         <h4><span className="scrollmore">Scroll To Learn More</span></h4>
         
