@@ -6,13 +6,13 @@
 h1 {
  color: rgb(240, 198, 221);
  font-weight: 600;
- text-shadow: 1px 1px rgb(109, 109, 109);;
+ text-shadow: 1px 1px  #000;
 }
 
 .pink {
     color: rgb(240, 198, 221);
     font-size: 1.2em;
-    text-shadow: 1px 1px #FFF;
+    text-shadow: 1px 1px #000;
 }
 
 .scrollmore {

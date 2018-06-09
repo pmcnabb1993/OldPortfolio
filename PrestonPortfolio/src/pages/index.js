@@ -66,6 +66,10 @@ class Index extends React.Component {
                 <header className="major">
                   <h2>About Me</h2>
                 </header>
+                <h3>Hey, I'm Preston.</h3>
+                <p>I recently completed the full stack coding program at the University of Texas. 
+                I have experience developing and designing software for the web, from simple landing pages to progressive web applications. 
+                I strive to create software that not only functions efficiently, but also provides intuitive, pixel-perfect user experiences.</p>
                 <p>As a front-end engineer...  
                </p>
 
@@ -86,6 +90,44 @@ class Index extends React.Component {
           <section id="first" className="main special">
           <header className="major">
               <h2>Skills</h2>
+              <div class="section__content"> 
+              <div class="skillz"> 
+              <div class="skillz__category"> 
+              <div class="skillz__category__label">Languages</div> 
+                <ul> 
+                  <li class="skillz__category__item">JavaScript (ES6)</li> 
+                  <li class="skillz__category__item">TypeScript</li> 
+                  <li class="skillz__category__item">HTML</li> 
+                  <li class="skillz__category__item">CSS/Sass</li> 
+                  <li class="skillz__category__item">Python</li> 
+                  <li class="skillz__category__item">Java</li> 
+                  <li class="skillz__category__item">SQL</li> 
+                  </ul> 
+                </div> <div class="skillz__category">
+                <div class="skillz__category__label">Frameworks</div> 
+                  <ul>
+                    <li class="skillz__category__item">Ember &amp; Glimmer</li>
+                    <li class="skillz__category__item">React</li> 
+                    <li class="skillz__category__item">Jekyll</li> 
+                    <li class="skillz__category__item">Node</li> 
+                    <li class="skillz__category__item">Backbone</li> 
+                    <li class="skillz__category__item">D3</li> 
+                    <li class="skillz__category__item">Cordova</li> 
+                    </ul> 
+                  </div> 
+                <div class="skillz__category"> 
+                <div class="skillz__category__label">Tools</div> 
+                  <ul> 
+                    <li class="skillz__category__item">Bash</li> 
+                    <li class="skillz__category__item">Git &amp; Github</li> 
+                    <li class="skillz__category__item">Gulp &amp; Grunt</li> 
+                    <li class="skillz__category__item">Chrome DevTools</li> 
+                    <li class="skillz__category__item">Postman</li> 
+                    <li class="skillz__category__item">MongoDB</li> 
+                    </ul> 
+                </div> 
+            </div>
+          </div> 
               
             </header>
           </section>
