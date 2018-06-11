@@ -88,48 +88,32 @@ class Index extends React.Component {
           </section>
 
           <section id="first" className="main special">
+         
           <header className="major">
+          <div className="right">
+            <div className="right-inner">
               <h2>Skills</h2>
-              <div class="section__content"> 
-              <div class="skillz"> 
-              <div class="skillz__category"> 
-              <div class="skillz__category__label">Languages</div> 
-                <ul> 
-                  <li class="skillz__category__item">JavaScript (ES6)</li> 
-                  <li class="skillz__category__item">TypeScript</li> 
-                  <li class="skillz__category__item">HTML</li> 
-                  <li class="skillz__category__item">CSS/Sass</li> 
-                  <li class="skillz__category__item">Python</li> 
-                  <li class="skillz__category__item">Java</li> 
-                  <li class="skillz__category__item">SQL</li> 
-                  </ul> 
-                </div> <div class="skillz__category">
-                <div class="skillz__category__label">Frameworks</div> 
-                  <ul>
-                    <li class="skillz__category__item">Ember &amp; Glimmer</li>
-                    <li class="skillz__category__item">React</li> 
-                    <li class="skillz__category__item">Jekyll</li> 
-                    <li class="skillz__category__item">Node</li> 
-                    <li class="skillz__category__item">Backbone</li> 
-                    <li class="skillz__category__item">D3</li> 
-                    <li class="skillz__category__item">Cordova</li> 
-                    </ul> 
-                  </div> 
-                <div class="skillz__category"> 
-                <div class="skillz__category__label">Tools</div> 
-                  <ul> 
-                    <li class="skillz__category__item">Bash</li> 
-                    <li class="skillz__category__item">Git &amp; Github</li> 
-                    <li class="skillz__category__item">Gulp &amp; Grunt</li> 
-                    <li class="skillz__category__item">Chrome DevTools</li> 
-                    <li class="skillz__category__item">Postman</li> 
-                    <li class="skillz__category__item">MongoDB</li> 
-                    </ul> 
-                </div> 
+              <div className="skills">
+                <h4>Skills</h4>
+                <div className="content">
+                  <div className="skill-category">
+                    <strong>Languages: &nbsp;</strong>
+                    <span>JavaScript (ES6), HTML5, CSS3, Java, Python</span>
+                  </div>
+                  <div className="skill-category">
+                    <strong>Libraries &amp; Frameworks: &nbsp;</strong>
+                    <span>jQuery, Bootstrap, Foundation, Handlebars, Node, Backbone, Marionette, Cordova, MongoDB, Angular, Express, React</span>
+                  </div>
+                  <div className="skill-category">
+                    <strong>Tools: &nbsp;</strong>
+                    <span>Git &amp; Github, Command Line, Grunt, Postman, Adobe Photoshop, InDesign</span>
+                  </div>
+                </div>
+              </div>
             </div>
-          </div> 
-              
-            </header>
+          </div>
+          
+          </header>
           </section>
 
           <section id="second" className="main special">
