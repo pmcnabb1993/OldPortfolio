@@ -92,7 +92,7 @@ class Index extends React.Component {
           <header className="major">
           <div className="right">
             
-              <h2>Skills</h2>
+              <h2>Education and Skills</h2>
               <div className="skills">
                 <div className="content">
                   <div className="skill-category">
@@ -244,16 +244,8 @@ class Index extends React.Component {
             </header>
           </section>
 
-          <section id="forth" className="main special">
-            <header className="major">
-              <h2>Education</h2>
-              <p>University of Texas - Bachelors</p>
-              <p>University of Texas - UT coding bootcamp</p>
-            </header>
-
-            <footer className="major">
+          <footer className="major">
             </footer>
-          </section>
 
         </div>
       </div>
