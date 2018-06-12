@@ -91,25 +91,28 @@ class Index extends React.Component {
          
           <header className="major">
           <div className="right">
-            <div className="right-inner">
+            
               <h2>Skills</h2>
               <div className="skills">
-                <h4>Skills</h4>
                 <div className="content">
                   <div className="skill-category">
-                    <strong>Languages: &nbsp;</strong>
-                    <span>JavaScript (ES6), HTML5, CSS3, Java, Python</span>
+                    <h3><strong>Development: &nbsp;</strong></h3>
+                    <span>JavaScript (ES6), HTML5, CSS3, React, jQuery, NodeJS, MongoDB, Firebase, MySQL</span>
                   </div>
                   <div className="skill-category">
-                    <strong>Libraries &amp; Frameworks: &nbsp;</strong>
-                    <span>jQuery, Bootstrap, Foundation, Handlebars, Node, Backbone, Marionette, Cordova, MongoDB, Angular, Express, React</span>
+                  <h3><strong>Frameworks: </strong></h3>
+                  <span>jQuery, Bootstrap, Bulma, Materialize, Handlebars, React</span>
                   </div>
                   <div className="skill-category">
-                    <strong>Tools: &nbsp;</strong>
-                    <span>Git &amp; Github, Command Line, Grunt, Postman, Adobe Photoshop, InDesign</span>
+                  <h3><strong>Databases: </strong></h3>
+                  <span>jQuery, Handlebars, MongoDB, MySQL</span>
+                  </div>
+                  <div className="skill-category">
+                  <h3><strong>Tools: &nbsp;</strong></h3>
+                  <span>Github, Command Line, Chrome DevTools, Adobe Photoshop, InDesign, MS Office</span>
                   </div>
                 </div>
-              </div>
+              
             </div>
           </div>
           

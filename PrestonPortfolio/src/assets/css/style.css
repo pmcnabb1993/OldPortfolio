@@ -14,7 +14,7 @@ html, body {
   
   .left,
   .right {
-    width: 50%;
+    
     display: inline-block;
     vertical-align: top;
   }
@@ -120,25 +120,27 @@ html, body {
     }
   }
   
-  .right {
-    float: right;
-  }
+ 
   
   .right a {
     color: #000;
   }
   
-  .right h4,
+  .right h3,
   .right .content {
     display: inline-block;
     vertical-align: top;
+    align-content: left;
+    
+    
   }
   
-  .right h4 {
+  .right h3 {
     width: 20%;
+    
     margin: 0 0 20px;
     text-transform: uppercase;
-    font-size: 14px;
+    font-size: 18px;
     background-color: #2A54F5;
     background-image: -webkit-linear-gradient(45deg,#2A54F5 0%,#33E5BB 100%);
     background-image: linear-gradient(45deg,#2A54F5 0%,#33E5BB 100%);
@@ -152,7 +154,7 @@ html, body {
   }
   
   .right .content {
-    width: 80%;
+    width: 100%;
     padding: 0;
     margin: 0 0 50px;
     font-weight: 300;
@@ -161,7 +163,7 @@ html, body {
   
   
   @media screen and (max-width: 600px) {
-    .right h4,
+    .right h3,
     .right .content {
       display: block;
       vertical-align: top;
@@ -192,6 +194,8 @@ html, body {
   
   .right .skills .skill-category {
     margin-bottom: 10px;
+    align-content: left;
+    text-align: left;
   }
   
   .right .skills .skill-category:last-of-type {
@@ -318,7 +322,8 @@ html, body {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
-  
+
+
 
 .name {
     font-size: 1.5em;
