@@ -85,6 +85,26 @@ class Index extends React.Component {
               </div>
               <span className="image"><img src={Profile} alt="" /></span>
             </div>
+
+            <header className="major">
+                  <h2>Education</h2>
+                </header>
+                <div className="education">
+                <div className="content">
+                  <div className="utitle">The University of Texas at Austin</div>
+                  <div className="college">UT Austin Software Development Program</div>
+                  <div className="major">Center for Professional Education</div>
+                  <div className="grad-date">Completion: May 2018</div>
+                </div>
+                <br></br>
+                <div className="content">
+                  <div className="utitle">The University of Texas at Austin</div>
+                  <div className="college">Moody College of Communication</div>
+                  <div className="major"><strong>Major:</strong> Bachelor of Science in Communications: Radio/TV/Film</div>
+                  <div className="minor"><strong>Minor:</strong> Business Foundations</div>
+                  <div className="grad-date">Graduation: May 2016</div>
+                </div>
+              </div>
           </section>
 
           <section id="first" className="main special">
@@ -92,12 +112,12 @@ class Index extends React.Component {
           <header className="major">
           <div className="right">
             
-              <h2>Education and Skills</h2>
+            <h2>Skills and Experience</h2>
               <div className="skills">
                 <div className="content">
                   <div className="skill-category">
                     <h3><strong>Languages: &nbsp;</strong></h3>
-                    <span>JavaScript, HTML5, CSS3, Sass</span>
+                    <span>JavaScript, HTML5, CSS3, SASS</span>
                   </div>
                   <div className="skill-category">
                   <h3><strong>Development: </strong></h3>
@@ -116,10 +136,28 @@ class Index extends React.Component {
                   <span>Adobe Photoshop, Illustrator, Lightroom </span>
                   </div>
                 </div>
-              
             </div>
+            <h2></h2>
+            <div className="skills">
+                <div className="content">
+                  <div className="skill-category">
+                    <div className="job">
+                      <div className="ctitle">Luxe</div>
+                      <div className="duration">August 2016 &mdash; June 2017</div>
+                    </div>
+                    <div className="title">Logistics and Operations Coordinator</div>
+                    <ul className="description">
+                      <li>Oversaw quality assurance and troubleshooting for our proprietary, in-house built logistics platform and app.</li>
+                      <li>Responsible for the day-to-day live operations, which included the managing of a large workforce, strategic problem solving, lot and asset inventory, customer escalations and in-field troubleshooting.</li>
+                      <li>Communicated cross functionally with 5 city operations teams, in field supervisors and General Managers, overseeing an internal dispatch system to manage everyday logistics.</li>
+                      <li>Managed incoming calls and was responsible for solving the technical support needs of our customers and employees.</li>
+                      <li>Collaborated with customer service teams to resolved customer issues in a clear, courteous and timely manner.</li>
+                      <li>Worked closely with product and engineering teams to constantly improve our internal processes and software.</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
           </div>
-          
           </header>
           </section>
 
@@ -241,16 +279,8 @@ class Index extends React.Component {
             </ul>
           </section>
 
-          <section id="third" className="main special">
-          <header className="major">
-              <h2>Work Experience</h2>
-              <p>Luxe</p>
-            </header>
-          </section>
-
           <footer className="major">
             </footer>
-
         </div>
       </div>
     )
