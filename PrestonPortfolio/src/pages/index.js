@@ -96,20 +96,24 @@ class Index extends React.Component {
               <div className="skills">
                 <div className="content">
                   <div className="skill-category">
-                    <h3><strong>Development: &nbsp;</strong></h3>
-                    <span>JavaScript (ES6), HTML5, CSS3, React, jQuery, NodeJS, MongoDB, Firebase, MySQL</span>
+                    <h3><strong>Languages: &nbsp;</strong></h3>
+                    <span>JavaScript, HTML5, CSS3, Sass</span>
                   </div>
                   <div className="skill-category">
-                  <h3><strong>Frameworks: </strong></h3>
-                  <span>jQuery, Bootstrap, Bulma, Materialize, Handlebars, React</span>
+                  <h3><strong>Development: </strong></h3>
+                  <span>React, Node.js, JQuery, npm/yarn, MongoDB, Firebase, MySQL</span>
                   </div>
                   <div className="skill-category">
-                  <h3><strong>Databases: </strong></h3>
-                  <span>jQuery, Handlebars, MongoDB, MySQL</span>
+                  <h3><strong> Frameworks: </strong></h3>
+                  <span>Bootstrap, Bulma, Materialize </span>
                   </div>
                   <div className="skill-category">
-                  <h3><strong>Tools: &nbsp;</strong></h3>
-                  <span>Github, Command Line, Chrome DevTools, Adobe Photoshop, InDesign, MS Office</span>
+                  <h3><strong> Dev Tools: &nbsp;</strong></h3>
+                  <span>Github, Command Line, Terminal/iTerm, Chrome DevTools, VS Code</span>
+                  </div>
+                  <div className="skill-category">
+                  <h3><strong> Design: </strong></h3>
+                  <span>Adobe Photoshop, Illustrator, Lightroom </span>
                   </div>
                 </div>
               
@@ -147,7 +151,7 @@ class Index extends React.Component {
                   src={LiveAthlete}
                   colour="#FFFFFF"
                   title="Live Athlete"
-                  link="https://gitdarren.github.io/LiveAthle…"
+                  link="https://gitdarren.github.io/LiveAthlete/"
                   timeperiod="HTML5 - CSS - Materialize - Javascript - Firebase - Google Authentication"
                   subtitle="A platform for socially aware travellers. Runs on
                     React+Redux with a Ruby on Rails backend."
