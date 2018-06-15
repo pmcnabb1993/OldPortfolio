@@ -67,20 +67,24 @@ class Index extends React.Component {
                   <h2>About Me</h2>
                 </header>
                 <h3>Hey, I'm Preston.</h3>
-                <p>I recently completed the full stack coding program at the University of Texas. 
+                <p>I recently completed the full stack coding program at The University of Texas at Austin. 
                 I have experience developing and designing software for the web, from simple landing pages to progressive web applications. 
                 I strive to create software that not only functions efficiently, but also provides intuitive, pixel-perfect user experiences.</p>
                 <p>As a front-end engineer...  
                </p>
 
                 {/* <p>Huge tech lover and always looking for a new exciting thing to learn! 
-                Born and raised in Texas, I try to find the time to go there to find the ressource i need to give the best of me for my project
-                 After an IT Degree and few years in the film industry in found my self again in the Tech area, 
-                 understanding how our connected world work and explaining it to my peer is the most trilling challenge i faced. 
-                 And now after my degree in one of the most famous french business school (i.e HEC Paris) i found new challenge in the entrepreneur way.</p> */}
+                Born and raised in Texas, I try to find the time to go there to find </p> */}
 
-                <p>When I'm not in front of a computer screen, I'm probably biking around town taking photography,
+                <p>When I'm not in front of a computer screen, I am probably biking around town taking photography,
                 trying out new restaurants and coffee shops, or crossing off another national park off my bucket list.</p>
+
+                <h3 class="intro__contact">
+                <span>Get in touch </span> 
+                <a className="icon fa-hand-o-right"></a>
+                <span>  <a href="mailto:prestonmcnabb22@gmail.com" target="_blank" class="highlight-link">  prestonmcnabb22@gmail.com </a> 
+                </span> 
+                </h3>
                 
               </div>
               <span className="image"><img src={Profile} alt="" /></span>
@@ -176,13 +180,6 @@ class Index extends React.Component {
                   subtitle="A application that allows indivudual users and non-profit
                   organizations to post donations or request donations. "
                 /> 
-                <GithubCorner
-                  href={"https://github.com/pmcnabb1993/PrestonPortfolio"}
-                  bannerColor="#70B7FD"
-                  octoColor="rgb(240, 198, 221)"
-                  size={80}
-                  direction="right" 
-                  />
               </li>
               <li>
               <Project
@@ -213,9 +210,8 @@ class Index extends React.Component {
                   colour="#FFFFFF"
                   title="Metro Tracker"
                   link="https://preston-weather-app.herokuapp.com/"
-                  timeperiod="2017"
-                  subtitle="A platform for socially aware travellers. Runs on
-                    React+Redux with a Ruby on Rails backend."
+                  timeperiod="HTML5 - CSS - Javascript - Bootstrap"
+                  subtitle="A platform for tracking the fake metro lines of Austin Texas."
                 />
               </li>
               
@@ -225,7 +221,7 @@ class Index extends React.Component {
                   colour="#FFFFFF"
                   title="Burger Menu"
                   link=" https://preston-burger-app.herokuapp.com/"
-                  timeperiod="2017"
+                  timeperiod="HTML5 - CSS - Javascript - MySQL - Express.js"
                   subtitle="BurgerApp is a simple application that lets the user 
                   log and update new menu items. Which in this case happens to be burgers."
                 />
@@ -236,7 +232,7 @@ class Index extends React.Component {
                   colour="#FFFFFF"
                   title="Giph-tastic"
                   link="https://pmcnabb1993.github.io/giphy_Project/"
-                  timeperiod="2017"
+                  timeperiod="HTML5 - CSS - Javascript - Giphy API"
                   subtitle="GifTastic is a web application that uses the GIPHY API 
                   to make a dynamic web page that populates with gifs of your choice. 
                   Create a button for any keyword you want."
@@ -248,21 +244,21 @@ class Index extends React.Component {
                   colour="#FFFFFF"
                   title="Stranger Things Trivia"
                   link="https://pmcnabb1993.github.io/Trivia_Game/"
-                  timeperiod="2017"
-                  subtitle="A platform for socially aware travellers. Runs on
-                    React+Redux with a Ruby on Rails backend."
+                  timeperiod="HTML5 - CSS - Javascript - Bootstrap"
+                  subtitle="A simple trivia game based on the popular televison show Stranger Things"
                 />
               </li>
               
               <li>
               <Project
-                  src={FriendFinder}
+                  src={TypeSearch}
                   colour="#FFFFFF"
                   title="Friend Finder"
                   link="https://preston-friend-finder.herokuapp.com/home.html"
-                  timeperiod="2017"
-                  subtitle="A platform for socially aware travellers. Runs on
-                    React+Redux with a Ruby on Rails backend."
+                  timeperiod="HTML5 - CSS - Javascript"
+                  subtitle=" A compatibility-based friend finder application -- basically a dating app. 
+                  This full-stack site takes in results from users surveys and then will then display the name and 
+                  picture of the user with the best overall match."
                 />
               </li>
               <li>
@@ -271,9 +267,9 @@ class Index extends React.Component {
                   colour="#FFFFFF"
                   title="Memory Game"
                   link="https://mario-memory-game.herokuapp.com/"
-                  timeperiod="2017"
-                  subtitle="A platform for socially aware travellers. Runs on
-                    React+Redux with a Ruby on Rails backend."
+                  timeperiod="React.js - HTML5 - CSS - Bootstrap - Heroku"
+                  subtitle="The application is a memory game. The user's score goes up when clicking 
+                  an image for the first time and the score resets to 0 if clicking an image twice. To win you must get a score of 20. "
                 />
               </li>
             </ul>

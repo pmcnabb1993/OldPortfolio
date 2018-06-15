@@ -445,6 +445,9 @@ img {
     transition: .5s ease;
     opacity: 0.7;
     content: "Demo";
+    font-family: "FontAwesome"; 
+    content: "\f002";
+    color: #888;
     font-size: .8em;
         font-weight: 400;
         text-align: center;
