@@ -68,13 +68,7 @@ class Index extends React.Component {
                 </header>
                 <h3>Hey, I'm Preston.</h3>
                 <p>I recently completed the full stack coding program at The University of Texas at Austin. 
-                I have experience developing and designing software for the web, from simple landing pages to progressive web applications. 
-                I strive to create software that not only functions efficiently, but also provides intuitive, pixel-perfect user experiences.</p>
-                <p>As a front-end engineer...  
-               </p>
-
-                {/* <p>Huge tech lover and always looking for a new exciting thing to learn! 
-                Born and raised in Texas, I try to find the time to go there to find </p> */}
+                I have experience developing and designing software for the web, from simple landing pages to progressive web applications.</p>
 
                 <p>When I'm not in front of a computer screen, I am probably biking around town taking photography,
                 trying out new restaurants and coffee shops, or crossing off another national park off my bucket list.</p>
@@ -121,11 +115,11 @@ class Index extends React.Component {
                 <div className="content">
                   <div className="skill-category">
                     <h3><strong>Languages: &nbsp;</strong></h3>
-                    <span>JavaScript, HTML5, CSS3, SASS</span>
+                    <span>JavaScript, HTML5, CSS3, Sass</span>
                   </div>
                   <div className="skill-category">
                   <h3><strong>Development: </strong></h3>
-                  <span>React, Node.js, JQuery, npm/yarn, MongoDB, Firebase, MySQL</span>
+                  <span>React, Node.js, JQuery, npm, Yarn, MongoDB, Firebase, SQL</span>
                   </div>
                   <div className="skill-category">
                   <h3><strong> Frameworks: </strong></h3>
@@ -242,7 +236,7 @@ class Index extends React.Component {
               <Project
                   src={StrangerTrivia}
                   colour="#FFFFFF"
-                  title="Stranger Things Trivia"
+                  title="Stranger Trivia"
                   link="https://pmcnabb1993.github.io/Trivia_Game/"
                   timeperiod="HTML5 - CSS - Javascript - Bootstrap"
                   subtitle="A simple trivia game based on the popular televison show Stranger Things"
