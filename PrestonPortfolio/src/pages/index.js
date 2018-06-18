@@ -67,8 +67,11 @@ class Index extends React.Component {
                   <h2>About Me</h2>
                 </header>
                 <h3>Hey, I'm Preston.</h3>
+                
                 <p>I recently completed the full stack coding program at The University of Texas at Austin. 
-                I have experience developing and designing software for the web, from simple landing pages to progressive web applications.</p>
+                I have experience developing and designing software for the web, from simple landing pages to progressive web applications. 
+                I enjoy being the bridge between engineering and design, and feel right at home as a front end engineer. </p>
+
 
                 <p>When I'm not in front of a computer screen, I am probably biking around town taking photography,
                 trying out new restaurants and coffee shops, or crossing off another national park off my bucket list.</p>
@@ -153,6 +156,9 @@ class Index extends React.Component {
                       <li>Worked closely with product and engineering teams to constantly improve our internal processes and software.</li>
                     </ul>
                   </div>
+                  <a class="resume" href="http://prestonmcnabb.com/resume.pdf" target="_blank" data-reactid=".0.1.0.5">
+                  <div class="resume-link" data-reactid=".0.1.0.5.0">Grab a PDF of my full resume</div>
+                  </a>
                 </div>
               </div>
           </div>
@@ -171,7 +177,7 @@ class Index extends React.Component {
                   title="Donation Location"
                   link="http://www.dolo.io/"
                   timeperiod="HTML5 - CSS - Bulma Framework - Javascript - MongoDB - MySQL "
-                  subtitle="A application that allows indivudual users and non-profit
+                  subtitle="An application that allows indivudual users and non-profit
                   organizations to post donations or request donations. "
                 /> 
               </li>
@@ -193,7 +199,7 @@ class Index extends React.Component {
                   title="Weather App"
                   link="https://preston-weather-app.herokuapp.com/"
                   timeperiod="HTML5 - CSS - Javascript - OpenWeatherAPI - GoogleMaps API"
-                  subtitle="Simple weather app using the OpenWeatherMap API 
+                  subtitle="A Simple weather app using the OpenWeatherMap API 
                   to get weather and forecast data for a searched location."
                 />
               </li>
@@ -239,7 +245,7 @@ class Index extends React.Component {
                   title="Stranger Trivia"
                   link="https://pmcnabb1993.github.io/Trivia_Game/"
                   timeperiod="HTML5 - CSS - Javascript - Bootstrap"
-                  subtitle="A simple trivia game based on the popular televison show Stranger Things"
+                  subtitle="A simple trivia game based on the popular televison show Stranger Things."
                 />
               </li>
               
