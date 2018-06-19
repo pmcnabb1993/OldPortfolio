@@ -67,7 +67,7 @@ class Index extends React.Component {
                   <h2>About Me</h2>
                 </header>
                 <h3>Hey, I'm Preston.</h3>
-                
+
                 <p>I recently completed the full stack coding program at The University of Texas at Austin. 
                 I have experience developing and designing software for the web, from simple landing pages to progressive web applications. 
                 I enjoy being the bridge between engineering and design, and feel right at home as a front end engineer. </p>
@@ -156,7 +156,7 @@ class Index extends React.Component {
                       <li>Worked closely with product and engineering teams to constantly improve our internal processes and software.</li>
                     </ul>
                   </div>
-                  <a class="resume" href="http://prestonmcnabb.com/resume.pdf" target="_blank" data-reactid=".0.1.0.5">
+                  <a class="resume" href="http://preston.mcnabb.com/resume.pdf" target="_blank" data-reactid=".0.1.0.5">
                   <div class="resume-link" data-reactid=".0.1.0.5.0">Grab a PDF of my full resume</div>
                   </a>
                 </div>
